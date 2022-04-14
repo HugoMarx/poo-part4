@@ -11,7 +11,7 @@ echo $car->setParkBrake(true);
 try {
     echo $car->start();
 } catch (Exception $e){
-    echo 'An error occured because de brake was still set <br>';
+    echo 'An error occured because the brake was still set <br>';
     $car->setParkBrake(false);
     echo 'Brake auto unset <br>';
     echo $car->start();
